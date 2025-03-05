@@ -9,7 +9,8 @@ public class Ejercicio1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el precio de un producto:");
         precio = sc.nextDouble();
-        System.out.println("El precio total con iva es: " + (precio*IVA+precio));
+
+        System.out.println("El precio total con iva es: " + ((precio*IVA)+precio));
         sc.close();
     }
 }

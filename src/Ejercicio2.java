@@ -5,33 +5,34 @@ public class Ejercicio2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un numero de dia de la semana (1 - 7): ");
         int dia = sc.nextInt();
-        sc.close();
-        String semana = "";
+        String diaSemana = "";
+
         switch (dia) {
             case 1:
-                semana = "Lunes";
+                diaSemana = "Lunes";
                 break;
             case 2:
-                semana = "Martes";
+                diaSemana = "Martes";
                 break;
             case 3:
-                semana = "Miercoles";
+                diaSemana = "Miercoles";
                 break;
             case 4:
-                semana = "Jueves";
+                diaSemana = "Jueves";
                 break;
             case 5:
-                semana = "Viernes";
+                diaSemana = "Viernes";
                 break;
             case 6:
-                semana = "Sabado";
+                diaSemana = "Sabado";
                 break;
             case 7:
-                semana = "Domingo";
+                diaSemana = "Domingo";
                 break;
             default:
                 System.out.println("Numero invalido");
         }
-        System.out.println("El dia de la semana es: " +semana);
+        sc.close();
+        System.out.println("El dia de la semana es: " +diaSemana);
     }
 }
