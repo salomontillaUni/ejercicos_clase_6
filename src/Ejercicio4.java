@@ -9,6 +9,6 @@ public class Ejercicio4 {
         for (int i = 1; i <= n; i++ ) {
             resultado += i;
         }
-        System.out.println(resultado);
+        System.out.println("\n" + "Resultado : " + resultado);
     }
 }
