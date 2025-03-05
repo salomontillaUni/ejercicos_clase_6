@@ -5,6 +5,7 @@ public class Ejercicio5 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa un dia de la semana: ");
         String dia = sc.next();
+        dia = dia.toLowerCase().trim();
         boolean esLaboral = false;
         switch (dia) {
             case "lunes":
